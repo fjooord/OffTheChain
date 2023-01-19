@@ -1,5 +1,6 @@
 # OffTheChain
 Simple game made in python processing where a chain chomp breaks off its chain and chases around Toad.
+
 Completed Work:
 - Made characters using self written geometries and matrix stack
 - Implemented basic character control of the chomp character using the wasd keys
