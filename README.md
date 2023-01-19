@@ -1,6 +1,13 @@
 # OffTheChain
 Simple game made in python processing where a chain chomp breaks off its chain and chases around Toad.
 
+How to play:
+- Download or clone the repo
+- Install processing and the py processing 3 if not done already
+- Click play and the game will go through all the intro scenes
+- Once at the street maze use the WASD keys to maneuver through the game
+- Catch Toad and you win
+
 Game Scenes:
 1. Chomp on pole and Toad is taunting
 2. The chain breaks into a lot of pieces
@@ -8,13 +15,6 @@ Game Scenes:
 4. Transition scene of Chomp chasing Toad 
 5. Game scene, chase Toad around with the Chomp
 6. Game win scene 
-
-How to play:
-- Download or clone the repo
-- Install processing and the py processing 3 if not done already
-- Click play and the game will go through all the intro scenes
-- Once at the street maze use the WASD keys to maneuver through the game
-- Catch Toad and you win
 
 Completed Work:
 - Made characters using self written geometries and matrix stack
