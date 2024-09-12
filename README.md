@@ -1,34 +1,35 @@
 # OffTheChain
-Simple game made in python processing where a chain chomp breaks off its chain and chases around Toad.
 
-How to play:
-- Download or clone the repo
-- Install processing and the py processing 3 if not done already
-- Click play and the game will go through all the intro scenes
-- Once at the street maze use the WASD keys to maneuver through the game
-- Catch Toad and you win
+**OffTheChain** is a simple game developed in Python using Processing, where a Chain Chomp breaks free from its chain and chases Toad through a procedurally generated street maze.
 
-Game Scenes:
-1. Chomp on pole and Toad is taunting
-2. The chain breaks into a lot of pieces
-3. The chomp is now off the chain and begins chasing Toad
-4. Transition scene of Chomp chasing Toad 
-5. Game scene, chase Toad around with the Chomp
-6. Game win scene 
+### How to Play:
+1. Download or clone this repository.
+2. Install Processing and the Python Processing 3 library if you haven't already.
+3. Run the game and watch as it progresses through the introductory scenes.
+4. When the game reaches the street maze, use the **WASD** keys to control the Chomp and chase Toad.
+5. Catch Toad to win the game!
 
-Completed Work:
-- Made characters using self written geometries and matrix stack
-- Implemented basic character control of the chomp character using the wasd keys
-- Implemented a basic game engine to handle logic of the game, ie collision with walls and capture of the toad
-- Implemented a basic AI for Toad where it will go the location farther away from the player by Euclidian distance
-- Created procedural animations for the movement of game characters
-- Created a procedural particle simulation for the breaking of the chain 
-- Create a random street grid generator for when the player chases around Toad
-- Learned the importance of properly structuring a game for running on limited processing power
+### Game Scenes:
+1. **Chomp on Pole**: Toad taunts the Chomp while it’s chained to a pole.
+2. **Chain Breaks**: The Chomp’s chain shatters into pieces.
+3. **Chomp Unleashed**: Now free from the chain, the Chomp starts chasing Toad.
+4. **Chase Transition**: A short scene showing Chomp pursuing Toad.
+5. **Main Game**: Navigate the street maze as the Chomp and chase down Toad.
+6. **Win Scene**: Capture Toad to trigger the winning screen.
 
-Future Work:
-- Update toad AI to look 2 moves ahead for better movement interpolation
-- Update particle system animation to look more like an explosion
-- Create tile for the streets, grass, and walls to make them look better
-- Implement turning interpolation for the player
-- Animate the tail of the chomp
+### Completed Features:
+- **Custom Character Design**: Characters created using custom geometries and a matrix stack.
+- **Chomp Controls**: Basic character control for the Chomp, using **WASD** keys for movement.
+- **Game Engine**: Implemented a custom game engine to handle core mechanics like wall collisions and capturing Toad.
+- **Toad AI**: Developed a basic AI for Toad, making it move to the farthest location from the Chomp based on Euclidean distance.
+- **Procedural Animations**: Created procedural animations for character movements.
+- **Particle Simulation**: Designed a particle system to simulate the chain breaking into pieces.
+- **Random Street Grid**: Implemented a random street maze generator for the Toad chase sequence.
+- **Performance Optimization**: Learned and applied best practices for structuring the game to run efficiently on limited processing power.
+
+### Planned Improvements:
+- **Toad AI Upgrade**: Enhance Toad's AI to predict the Chomp’s movement two steps ahead, allowing for more strategic evasion.
+- **Particle Effects Enhancement**: Improve the particle animation for the chain break to resemble a more realistic explosion.
+- **Visual Improvements**: Add tiles for streets, grass, and walls to enhance the overall aesthetics of the game world.
+- **Movement Interpolation**: Implement smoother turning interpolation for the Chomp’s movement.
+- **Chomp Tail Animation**: Add animation for the Chomp’s tail to bring the character to life.
